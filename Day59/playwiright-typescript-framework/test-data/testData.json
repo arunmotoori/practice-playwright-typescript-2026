@@ -1,0 +1,10 @@
+{
+    "firstName":"Arun",
+    "lastName":"Motoori",
+    "telephoneNumber":"1234567890",
+    "validPassword":"12345",
+    "validEmailOne":"amotooricap6@gmail.com",
+    "invalidPassword":"67890",
+    "existingProduct":"HP",
+    "nonExistingProduct":"Honda"
+}

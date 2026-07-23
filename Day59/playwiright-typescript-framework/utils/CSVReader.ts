@@ -1,0 +1,13 @@
+import * as fs from "node:fs";
+import { parse } from "csv-parse/sync";
+
+export function readCsvFile(filePath: string) {
+
+    const fileContent = fs.readFileSync(filePath,"utf-8");
+
+    return parse(fileContent, {
+        columns: true,
+        skip_empty_lines: true,
+    }) as {email:string,password:string}[]; 
+   
+}
